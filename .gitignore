@@ -1,0 +1,7 @@
+build/
+/membench
+results/
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
