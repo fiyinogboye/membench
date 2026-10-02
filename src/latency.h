@@ -9,7 +9,7 @@ struct LatencyPoint {
 };
 
 // Average load-to-use latency for a working set of `bytes`, measured by pointer
-// chasing: every load's address depends on the previous load's result, so the
+// chasing: every load's address depends on whether the previous load's result, so the
 // CPU cannot overlap them or prefetch ahead. One node per cache line, linked in
 // a random single cycle (Sattolo's algorithm) so the access pattern defeats the
 // hardware prefetcher.
